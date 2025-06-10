@@ -1,0 +1,19 @@
+.colorchange{
+    background-color: red;
+}
+
+.rozmiar{
+    font-size: larger;
+}
+
+.czcionka{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    background-color: blue;
+}
+
+.przekreslenie{
+    text-decoration-line:line-through;
+}

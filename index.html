@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>classList2</title>
+</head>
+<body>
+    <script>
+        function colorchange(){
+            const div = document.getElementById("div");
+            div.classList.toggle("colorchange");
+        }
+
+        function rozmiar(){
+            const div = document.getElementById("div");
+            div.classList.toggle("rozmiar");
+        }
+
+        function czcionka(){
+            const div = document.getElementById("div");
+            div.classList.toggle("czcionka");
+        }
+
+        
+        function przekreslenie(){
+            const div = document.getElementById("div");
+            div.classList.toggle("przekreslenie");
+        }
+    
+        function reset(){
+            const div = document.getElementById("div");
+            div.classList.remove("rozmiar","czcionka","colorchange");
+        }
+    
+
+    </script>
+
+    <div id="div">
+        <h1>Kliknij przycisk, by zmienić wygląd</h1>
+
+        <button onclick="colorchange()">Zmień kolor</button>
+        <button onclick="rozmiar()">zmień rozmiar</button>
+        <button onclick="czcionka()">zmień czcionke</button>
+        <button onclick="przekreslenie()">przekreslenie</button>
+        <button onclick="reset()">resetuj</button>
+    </div>
+    
+</body>
+</html>
